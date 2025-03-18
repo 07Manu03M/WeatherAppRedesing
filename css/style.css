@@ -15,6 +15,7 @@ header{
     transition:height 0.4s ease-in-out;
     background: red;
     /* height: 420px; */
+    margin-bottom: 110%;
 }
 #navbar {
     transition:height 0.4s ease-in-out, border-radius 0.4s ease-in-out , gap 0.4s ease-in-out;
@@ -141,4 +142,342 @@ header{
 }
 .form__submit input.active{
     background: var(--button-1);
+}
+
+/*******************++ Main Section ++******************/
+
+.caja_main {
+    /* background: red; */
+    padding: 5px;
+    width: 100%;
+    height: 140px;
+    margin: auto;
+}
+.primera_seccion {
+    /* background: blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Wind {
+    background: var(--color-4);
+    width: 46%;
+    height:45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 16px;
+}
+.Wind img{
+    /* background: yellow; */
+    width: 15%;
+    height: 50%;
+    margin: auto;
+}
+.Speed {
+    /* background: green; */
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Speed span{
+    /* background: skyblue; */
+    font-size: 14px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros1 {
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.kilometros1 h5{
+    /* background: gold; */
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros_1 {
+    /* background: purple; */
+    display: flex;
+}
+.kilometros_1 img{
+    /* background: slateblue; */
+    width: 20%;
+}
+.kilometros_1 p{
+    /* background: salmon; */
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************** CAJA NUMERO 2 ****************/
+
+.wind_2 {
+    background: var(--color-4);
+    width: 46%;
+    height:45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 16px;
+}
+.wind_2 img{
+    /* background: yellow; */
+    width: 15%;
+    height: 50%;
+    margin: auto;
+}
+.speed_2 {
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.speed_2 span{
+    /* background: skyblue; */
+    font-size: 14px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros2 {
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.kilometros2 h5{
+    /* background: gold; */
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros_2 {
+    /* background: purple; */
+    display: flex;
+}
+.kilometros_2 img{
+    /* background: slateblue; */
+    width: 90%;
+}
+.kilometros_2 p{
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/******************** caja numero 3 ********************/
+
+.wind_3 {
+    background: var(--color-4);
+    width: 46%;
+    height:45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 16px;
+}
+.wind_3 img{
+    /* background: yellow; */
+    width: 15%;
+    height: 50%;
+    margin: auto;
+}
+.speed_3 {
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.speed_3 span{
+    /* background: skyblue; */
+    font-size: 14px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros3 {
+   /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.kilometros3 h5{
+    /* background: gold; */
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros_3 {
+    /* background: purple; */
+    display: flex;
+}
+.kilometros_3 img{
+    /* background: slateblue; */
+    width: 20%;
+}
+.kilometros_3 p{
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************** CAJA NUMERO 4 ********************/
+
+.wind_4 {
+    background: var(--color-4);
+    width: 46%;
+    height:45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 16px;
+}
+.wind_4 img{
+    /* background: yellow; */
+    width: 15%;
+    height: 50%;
+    margin: auto;
+}
+.speed_4 {
+    width: 65%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.speed_4 span{
+    /* background: skyblue; */
+    font-size: 14px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros4 {
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.kilometros4 h5{
+    /* background: gold; */
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+}
+.kilometros_4 {
+    /* background: purple; */
+    display: flex;
+}
+.kilometros_4 img{
+    /* background: slateblue; */
+    width: 50%;
+}
+.kilometros_4 p{
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION 2 */
+
+.segunda_seccion {
+    background: red;
+}
+.div_titulo2 {
+    background: blue;
+}
+.div_titulo2 img{
+    background: blueviolet;
+}
+.div_titulo2 span{
+    background: salmon;
+}
+.caja_clima {
+    background: skyblue;
+}
+/* CLIMA 1 */
+.clima1 {
+    background: green;
+}
+.clima1 p{
+    background: red;
+}
+.clima1 img{
+    background: gold;
+}
+.clima1 span{
+    background: slateblue;
+}
+/* CLIMA 2 */
+.clima2 {
+    background: green;
+}
+.clima2 p{
+    background: red;
+}
+.clima2 img{
+    background: gold;
+}
+.clima2 span{
+    background: slateblue;
+}
+/* CLIMA 3 */
+.clima3 {
+    background: green;
+}
+.clima3 p{
+    background: red;
+}
+.clima3 img{
+    background: gold;
+}
+.clima3 span{
+    background: slateblue;
+}
+/* CLIMA 4 */
+.clima4 {
+    background: green;
+}
+.clima4 p{
+    background: red;
+}
+.clima4 img{
+    background: gold;
+}
+.clima4 span{
+    background: slateblue;
+}
+/* CLIMA 5 */
+.clima5 {
+    background: green;
+}
+.clima5 p{
+    background: red;
+}
+.clima5 img{
+    background: gold;
+}
+.clima5 span{
+    background: slateblue;
+}
+/* CLIMA 6 */
+.clima6 {
+    background: green;
+}
+.clima6 p{
+    background: red;
+}
+.clima6 img{
+    background: gold;
+}
+.clima6 span{
+    background: slateblue;
 }
