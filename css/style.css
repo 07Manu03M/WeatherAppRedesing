@@ -147,7 +147,7 @@ header{
 /*******************++ Main Section ++******************/
 
 .caja_main {
-    /* background: red; */
+    /* background: rgb(92, 65, 65); */
     padding: 5px;
     width: 100%;
     height: 140px;
@@ -161,6 +161,7 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 .Wind {
     background: var(--color-4);
@@ -389,29 +390,56 @@ header{
 /* SECTION 2 */
 
 .segunda_seccion {
-    background: red;
+    background: var(--color-4);
+    border-radius: 18px;
+    width: 95%;
+    margin: auto;
+    height: 110%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .div_titulo2 {
-    background: blue;
+    /* background: blue; */
+    display: flex;
+    gap: 5%;
+    
 }
 .div_titulo2 img{
-    background: blueviolet;
+    /* background: blueviolet; */
 }
 .div_titulo2 span{
     background: salmon;
+    font-family: "OpenSans-Regular";
+    align-items: center;
 }
 .caja_clima {
     background: skyblue;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 /* CLIMA 1 */
 .clima1 {
     background: green;
+    width: 12%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima1 p{
     background: red;
+    font-size: 13px;
 }
 .clima1 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima1 span{
     background: slateblue;
@@ -419,12 +447,21 @@ header{
 /* CLIMA 2 */
 .clima2 {
     background: green;
+    width: 12%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima2 p{
     background: red;
+    font-size: 13px;
 }
 .clima2 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima2 span{
     background: slateblue;
@@ -432,12 +469,21 @@ header{
 /* CLIMA 3 */
 .clima3 {
     background: green;
+    width: 12%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima3 p{
     background: red;
+    font-size: 13px;
 }
 .clima3 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima3 span{
     background: slateblue;
@@ -445,12 +491,21 @@ header{
 /* CLIMA 4 */
 .clima4 {
     background: green;
+    width: 12%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima4 p{
     background: red;
+    font-size: 13px;
 }
 .clima4 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima4 span{
     background: slateblue;
@@ -458,12 +513,21 @@ header{
 /* CLIMA 5 */
 .clima5 {
     background: green;
+    width: 12%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima5 p{
     background: red;
+    font-size: 13px;
 }
 .clima5 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima5 span{
     background: slateblue;
@@ -471,12 +535,20 @@ header{
 /* CLIMA 6 */
 .clima6 {
     background: green;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .clima6 p{
     background: red;
+    font-size: 13px;
 }
 .clima6 img{
     background: gold;
+    width: 50%;
+    height: 30%;
 }
 .clima6 span{
     background: slateblue;
